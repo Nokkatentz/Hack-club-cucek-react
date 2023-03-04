@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&family=Sono:wght@300&display=swap');
+
+
+#box_content1{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    margin-right: 10%;
+}
+    #left_content1{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+        #left_content1 img{
+            width: 60%;
+            height: auto;
+        }
+    #right_content1{
+        margin: 0 20%;
+    }
+        #box_head1 h3{
+            font-weight: 700;
+            font-size: 28px;
+            font-family: 'Libre Franklin', sans-serif;
+        }
+        #box_phara1{
+            font-weight: 400;
+            font-size: 20px;
+        }
+        #box_list1 ul li{
+            font-weight: 400;
+            font-size: 20px;
+        }
+        #live_demo_btn1 a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 600;
+            text-decoration: none;
+            width: 160px;
+            height: 50px;
+            border: 2px solid #EC3750;
+            border-radius: 128px;
+            transition: 0.5s;
+            color: #EC3750;
+        }
+            #live_demo_btn1 a:hover{
+                color: white;
+                background-color: #EC3750;
+            }
+
+#box_content2{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    margin-left: 10%;
+}
+    #left_content2{
+        margin: 0 20%;
+    }
+        #box_head2 h3{
+            font-weight: 700;
+            font-size: 28px;
+            font-family: 'Libre Franklin', sans-serif;
+        }
+        #box_phara2{
+            font-weight: 400;
+            font-size: 20px;
+        }
+    #right_content2{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-right: 10%;
+    }
+        #right_content2 img{
+            width: 65%;
+            height: auto;
+        }
+        #box_list2 ul li{
+            font-weight: 400;
+            font-size: 20px;
+        }
+        #live_demo_btn2 a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 160px;
+            height: 50px;
+            border: 2px solid #EC3750;
+            border-radius: 128px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: 0.5s;
+            color: #EC3750;
+        }
+            #live_demo_btn2 a:hover{
+                color: white;
+                background-color: #EC3750;
+            }

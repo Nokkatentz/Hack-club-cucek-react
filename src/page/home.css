@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&family=Sono:wght@300&display=swap');
+
+
+#main_bg{
+    position: relative;
+}
+#main_bg img{
+    width: 100%;
+    height: auto;
+}
+#content1{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50% ,50%);
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    color: white;
+}
+    #main_text{
+        text-align: center;
+    }
+    #main_text h2{
+        font-family: 'Libre Franklin', sans-serif;
+        font-size: 4rem;
+        color: rgba(0, 2, 73, 0.1);
+        -webkit-text-stroke-width: 2.25px;
+        -webkit-text-stroke-color: rgb(255, 255, 255);
+        margin: 0;
+    }
+    #main_p{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    #box_p{
+        width: 70%;
+        height: auto;
+    }
+    #Our_vision_btn{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    #box_our_vision_btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 1s;
+    }
+    #box_our_vision_btn a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 213px;
+        height: 66px;
+        border-radius: 128px;
+        background: #EC3750;
+        box-shadow: 0px 4px 10px rgba(236, 55, 80, 0.4);
+        color: white;
+        text-decoration: none;
+    }
+    #box_our_vision_btn img{
+        margin-left: 1rem;
+    }
+        #box_our_vision_btn:hover{
+            box-shadow: 0px 4px 30px rgba(236, 55, 80, 0.4);
+            transform: scale(0.9);
+        }
+
+    /* -----------------------thing we do ---------------------- */
+    #Thing_we_do{
+        margin: 3%;
+    }
+    #box_twd{
+        display: grid;
+        grid-template-columns: auto;
+    }
+        #box_twd_text{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        #box_twd_text h2{
+            font-family: 'Libre Franklin', sans-serif;
+            font-weight: 700;
+            font-size: 32px;
+            margin:0;
+            z-index: 1;
+        }
+        #underline_thing_we_do{
+            position: absolute;
+            left: 45%;
+            top: 76%;
+            width: 5.5rem;
+            height: 0.5rem;
+            z-index: 0;
+            background-color: #EC3750;
+        }
+        #card_list{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            margin: 3%;
+            column-gap: 127px;
+        }
+    #our_initatives{
+        display: grid;
+        grid-template-rows: auto auto;
+        margin: 3%;
+    }
+        #box_our_initatives_text{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #box_our_initatives_text h2{
+            font-weight: 700;
+            font-size: 32px;
+            font-family: 'Libre Franklin', sans-serif;
+            z-index: 1;
+        }
+        #underline_our_initatives{
+            position: absolute;
+            left: 44.5%;
+            top: 63%;
+            width: 5.5rem;
+            height: 0.5rem;
+            z-index: 0;
+            background-color: #EC3750;
+        }
+        #box_our_initatives{
+            display: grid;
+            grid-template-rows: auto auto auto;
+            margin-top: 2rem;
+            row-gap: 2rem;
+        }
+
+/*--------------------------Event---------------------------*/
+
+#events{
+    display: grid;
+    grid-template-rows: auto auto;
+    margin: 3%;
+    border: 1px solid red;
+}
+    #box_event_text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
+    }
+    #box_event_text h2{
+        font-weight: 700;
+        font-size: 32px;
+    }
+    #box_event{
+        display: grid;
+        grid-template-columns:repeat(auto-fill, minmax(400px, 1fr));
+        border: 1px solid red;
+    }

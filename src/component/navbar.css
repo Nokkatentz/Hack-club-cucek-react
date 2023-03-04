@@ -1,0 +1,33 @@
+#nav{
+    position: absolute;
+
+    display: grid;
+    grid-template-columns: 25% auto 30%;
+    align-items: center;
+    width: 99.8%;
+    height: auto;
+    z-index: 1;
+}
+    #logo{
+        display: flex;
+        justify-content: center;
+    }
+    #list-menu{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        justify-content: center;
+        column-gap: 4rem;
+    }
+    #list-menu a{
+        color: white;
+        text-decoration: none;
+    }
+        #list-menu a:hover{
+            text-decoration: underline;
+        }
+    #list-contract{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: center;
+        column-gap: 1.5rem;
+    }

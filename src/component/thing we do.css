@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&family=Sono:wght@300&display=swap');
+
+#card_import{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0;
+    width: 352px;
+    height: 470px;
+}
+#box_in_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    #box_in_icon img{
+        width: 112px;
+        height: auto;
+    }
+#box_in_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Libre Franklin', sans-serif;
+}
+    #box_in_text h3{
+        font-weight: 700;
+        font-size: 24px;
+    }
+#box_in_phara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box_in_phara p{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+#box_in_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EC3750;
+}
+#box_in_btn a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: #EC3750;
+    text-decoration: none;
+}
+    #box_in_btn a:hover{
+        text-decoration: underline;
+    }
+#box_in_btn img{
+    padding-top: 3px;
+    padding-left: 5px;
+}
