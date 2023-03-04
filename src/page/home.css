@@ -144,13 +144,11 @@
     display: grid;
     grid-template-rows: auto auto;
     margin: 3%;
-    border: 1px solid red;
 }
     #box_event_text{
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid red;
     }
     #box_event_text h2{
         font-weight: 700;
@@ -159,5 +157,4 @@
     #box_event{
         display: grid;
         grid-template-columns:repeat(auto-fill, minmax(400px, 1fr));
-        border: 1px solid red;
     }

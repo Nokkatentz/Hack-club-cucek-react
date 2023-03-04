@@ -6,13 +6,11 @@
     align-items: center;
     flex-direction: column;
     margin: 3%;
-    border:  1px solid green;
 }
     #box_img{
         display: flex;
         justify-content: center;
         align-items: center;
-        border:  1px solid rgb(42, 165, 97);
     }
     #box_img img{
         width: 85%;
@@ -21,7 +19,6 @@
     #box_topic_and_date{
         width: 70%;
         height: auto;
-        border:  1px solid brown;
     }
         #topic_text h2{
             font-family: 'Libre Franklin', sans-serif;
